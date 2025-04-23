@@ -8,7 +8,7 @@
       },
       "data": {
         "label": "Scapular Pulls",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/scapular_pulls.svg",
+        "imageUrl": "assets/move_images/scapular_pulls.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -25,7 +25,7 @@
       },
       "data": {
         "label": "Hanging Knee Raise",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/hanging_knee_raises.svg",
+        "imageUrl": "assets/move_images/hanging_knee_raises.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -42,7 +42,7 @@
       },
       "data": {
         "label": "Tuck Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/tuck_front_lever.svg",
+        "imageUrl": "assets/move_images/tuck_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -59,7 +59,7 @@
       },
       "data": {
         "label": "Advanced Tuck Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/advanced_tuck_front_lever.svg",
+        "imageUrl": "assets/move_images/advanced_tuck_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -76,7 +76,7 @@
       },
       "data": {
         "label": "Frog Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/frog_front_lever.png",
+        "imageUrl": "assets/move_images/frog_front_lever.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -93,7 +93,7 @@
       },
       "data": {
         "label": "Piked Straddle Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/piked_straddle_front_lever.svg",
+        "imageUrl": "assets/move_images/piked_straddle_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -110,7 +110,7 @@
       },
       "data": {
         "label": "Straddle Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straddle_front_lever.png",
+        "imageUrl": "assets/move_images/straddle_front_lever.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -127,7 +127,7 @@
       },
       "data": {
         "label": "One Leg Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/one_leg_front_lever.svg",
+        "imageUrl": "assets/move_images/one_leg_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -144,7 +144,7 @@
       },
       "data": {
         "label": "Front Lever",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever.svg",
+        "imageUrl": "assets/move_images/front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -161,7 +161,7 @@
       },
       "data": {
         "label": "One Leg FL Drops",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/one_leg_front_lever_drops.svg",
+        "imageUrl": "assets/move_images/one_leg_front_lever_drops.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -178,7 +178,7 @@
       },
       "data": {
         "label": "Front Lever Drops",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever_drops.svg",
+        "imageUrl": "assets/move_images/front_lever_drops.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -195,7 +195,7 @@
       },
       "data": {
         "label": "One Leg FL Raises",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/one_leg_fl_raises.png",
+        "imageUrl": "assets/move_images/one_leg_fl_raises.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -212,7 +212,7 @@
       },
       "data": {
         "label": "Front Lever Raises",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever_raises.png",
+        "imageUrl": "assets/move_images/front_lever_raises.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -229,7 +229,7 @@
       },
       "data": {
         "label": "Upside-Down Deadlift",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/upside_down_deadlift.svg",
+        "imageUrl": "assets/move_images/upside_down_deadlift.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -246,7 +246,7 @@
       },
       "data": {
         "label": "Ice Cream Makers",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever.svg",
+        "imageUrl": "assets/move_images/front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -263,7 +263,7 @@
       },
       "data": {
         "label": "Pull-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/pull-up.svg",
+        "imageUrl": "assets/move_images/pull-up.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -280,7 +280,7 @@
       },
       "data": {
         "label": "Chest-to-Bar Pull-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/chest-to-bar_pull-up.svg",
+        "imageUrl": "assets/move_images/chest-to-bar_pull-up.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -297,7 +297,7 @@
       },
       "data": {
         "label": "Upper-Stomach-to-Bar Pull-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/upper-stomach-to-bar_pull-up.svg",
+        "imageUrl": "assets/move_images/upper-stomach-to-bar_pull-up.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -314,7 +314,7 @@
       },
       "data": {
         "label": "Explosive Pull-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/explosive_pull-up.png",
+        "imageUrl": "assets/move_images/explosive_pull-up.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -331,7 +331,7 @@
       },
       "data": {
         "label": "Straight Bar Dips",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straight_bar_dip.png",
+        "imageUrl": "assets/move_images/straight_bar_dip.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -348,7 +348,7 @@
       },
       "data": {
         "label": "Jumping Muscle-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/jumping_muscle-up.png",
+        "imageUrl": "assets/move_images/jumping_muscle-up.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -365,7 +365,7 @@
       },
       "data": {
         "label": "Negative Muscle-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/negative_muscle-up.png",
+        "imageUrl": "assets/move_images/negative_muscle-up.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -382,7 +382,7 @@
       },
       "data": {
         "label": "Muscle-Up",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/muscle-up.png",
+        "imageUrl": "assets/move_images/muscle-up.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -399,7 +399,7 @@
       },
       "data": {
         "label": "High Side Plank Raise",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/high_side_plank_raise.png",
+        "imageUrl": "assets/move_images/high_side_plank_raise.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -416,7 +416,7 @@
       },
       "data": {
         "label": "Elevated High Side Plank Raise",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/elevated_high_side_plank_raise.png",
+        "imageUrl": "assets/move_images/elevated_high_side_plank_raise.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -433,7 +433,7 @@
       },
       "data": {
         "label": "Side Plank Flag",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/side_plank_flag.png",
+        "imageUrl": "assets/move_images/side_plank_flag.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -450,7 +450,7 @@
       },
       "data": {
         "label": "Straddle Flag Raise",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straddle_flag_raise.png",
+        "imageUrl": "assets/move_images/straddle_flag_raise.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -467,7 +467,7 @@
       },
       "data": {
         "label": "Flag Raises",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/flag_raises.png",
+        "imageUrl": "assets/move_images/flag_raises.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -484,7 +484,7 @@
       },
       "data": {
         "label": "Vertical Flag Hold",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/vertical_flag_hold.png",
+        "imageUrl": "assets/move_images/vertical_flag_hold.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -501,7 +501,7 @@
       },
       "data": {
         "label": "Tuck Human Flag",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/tuck_human_flag.png",
+        "imageUrl": "assets/move_images/tuck_human_flag.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -518,7 +518,7 @@
       },
       "data": {
         "label": "Straddle Human Flag",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straddle_human_flag.png",
+        "imageUrl": "assets/move_images/straddle_human_flag.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -535,7 +535,7 @@
       },
       "data": {
         "label": "Negative Human Flag",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/negative_human_flag.png",
+        "imageUrl": "assets/move_images/negative_human_flag.png",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
@@ -552,7 +552,7 @@
       },
       "data": {
         "label": "Human Flag",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/human_flag.svg",
+        "imageUrl": "assets/move_images/human_flag.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
