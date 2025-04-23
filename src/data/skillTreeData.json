@@ -1,0 +1,732 @@
+{
+  "nodes": [
+    {
+      "id": "scapular_pulls",
+      "position": {
+        "x": 497.99667383190854,
+        "y": 1434.0896075512053
+      },
+      "data": {
+        "label": "Scapular Pulls",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/scapular_pulls.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "hanging_knee_raise",
+      "position": {
+        "x": 481.69916822391826,
+        "y": 1202.8784733659554
+      },
+      "data": {
+        "label": "Hanging Knee Raise",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/hanging_knee_raises.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "tuck_front_lever",
+      "position": {
+        "x": 496.5532903260755,
+        "y": 983.9616739659732
+      },
+      "data": {
+        "label": "Tuck Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/tuck_front_lever.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "advanced_tuck",
+      "position": {
+        "x": 459.00646317139615,
+        "y": 766.9755636346632
+      },
+      "data": {
+        "label": "Advanced Tuck Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/advanced_tuck_front_lever.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "frog_front_lever",
+      "position": {
+        "x": 491.52298425658466,
+        "y": 519.8521503972207
+      },
+      "data": {
+        "label": "Frog Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/frog_front_lever.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "piked_straddle",
+      "position": {
+        "x": 463.36269750613474,
+        "y": 306.459010749024
+      },
+      "data": {
+        "label": "Piked Straddle Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/piked_straddle_front_lever.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "straddle_front_lever",
+      "position": {
+        "x": 480.01565247109687,
+        "y": 163.9182887562563
+      },
+      "data": {
+        "label": "Straddle Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straddle_front_lever.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "one_leg_fl",
+      "position": {
+        "x": 485.76495380060544,
+        "y": -345.79105694753997
+      },
+      "data": {
+        "label": "One Leg Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/one_leg_front_lever.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "front_lever",
+      "position": {
+        "x": 509.1038042255892,
+        "y": -553.5970796099447
+      },
+      "data": {
+        "label": "Front Lever",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "one_leg_drops",
+      "position": {
+        "x": 19.55777876224397,
+        "y": 480.3720570348146
+      },
+      "data": {
+        "label": "One Leg FL Drops",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/one_leg_front_lever_drops.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "full_drops",
+      "position": {
+        "x": 19.16923669579228,
+        "y": -178.77383573861005
+      },
+      "data": {
+        "label": "Front Lever Drops",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever_drops.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "one_leg_raises",
+      "position": {
+        "x": 324.20526524545687,
+        "y": 0.8034871133797168
+      },
+      "data": {
+        "label": "One Leg FL Raises",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/one_leg_fl_raises.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "full_raises",
+      "position": {
+        "x": 322.3083112536925,
+        "y": -131.5274583023856
+      },
+      "data": {
+        "label": "Front Lever Raises",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever_raises.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "deadlift",
+      "position": {
+        "x": 803.1040104836857,
+        "y": 497.66815658040196
+      },
+      "data": {
+        "label": "Upside-Down Deadlift",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/upside_down_deadlift.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "ice_cream",
+      "position": {
+        "x": 818.5547476079851,
+        "y": -145.70280466116628
+      },
+      "data": {
+        "label": "Ice Cream Makers",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/front_lever.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "pull_up",
+      "position": {
+        "x": 1487.814984659159,
+        "y": 1104.8812422367428
+      },
+      "data": {
+        "label": "Pull-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/pull-up.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "chest_to_bar",
+      "position": {
+        "x": 1469.5682975380387,
+        "y": 877.4714570085114
+      },
+      "data": {
+        "label": "Chest-to-Bar Pull-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/chest-to-bar_pull-up.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "stomach_to_bar",
+      "position": {
+        "x": 1429.6916410985991,
+        "y": 649.9383282197198
+      },
+      "data": {
+        "label": "Upper-Stomach-to-Bar Pull-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/upper-stomach-to-bar_pull-up.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "explosive_pull",
+      "position": {
+        "x": 1472,
+        "y": 474
+      },
+      "data": {
+        "label": "Explosive Pull-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/explosive_pull-up.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "straight_bar_dip",
+      "position": {
+        "x": 1724,
+        "y": 470
+      },
+      "data": {
+        "label": "Straight Bar Dips",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straight_bar_dip.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "jumping_mu",
+      "position": {
+        "x": 1460,
+        "y": 230
+      },
+      "data": {
+        "label": "Jumping Muscle-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/jumping_muscle-up.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "negative_mu",
+      "position": {
+        "x": 1458,
+        "y": 68
+      },
+      "data": {
+        "label": "Negative Muscle-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/negative_muscle-up.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "muscle_up",
+      "position": {
+        "x": 1482,
+        "y": -96
+      },
+      "data": {
+        "label": "Muscle-Up",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/muscle-up.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "high_side_plank",
+      "position": {
+        "x": 2130,
+        "y": 1064
+      },
+      "data": {
+        "label": "High Side Plank Raise",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/high_side_plank_raise.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "elevated_high_side_plank",
+      "position": {
+        "x": 2094,
+        "y": 882
+      },
+      "data": {
+        "label": "Elevated High Side Plank Raise",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/elevated_high_side_plank_raise.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "side_plank_flag",
+      "position": {
+        "x": 2148,
+        "y": 688
+      },
+      "data": {
+        "label": "Side Plank Flag",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/side_plank_flag.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "straddle_flag_raise",
+      "position": {
+        "x": 2134,
+        "y": 526
+      },
+      "data": {
+        "label": "Straddle Flag Raise",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straddle_flag_raise.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "flag_raises",
+      "position": {
+        "x": 2150,
+        "y": 360
+      },
+      "data": {
+        "label": "Flag Raises",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/flag_raises.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "vertical_flag_hold",
+      "position": {
+        "x": 2126,
+        "y": 226
+      },
+      "data": {
+        "label": "Vertical Flag Hold",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/vertical_flag_hold.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "tuck_human_flag",
+      "position": {
+        "x": 2120,
+        "y": 90
+      },
+      "data": {
+        "label": "Tuck Human Flag",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/tuck_human_flag.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "straddle_human_flag",
+      "position": {
+        "x": 2106,
+        "y": -50
+      },
+      "data": {
+        "label": "Straddle Human Flag",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/straddle_human_flag.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "negative_human_flag",
+      "position": {
+        "x": 2086,
+        "y": -188
+      },
+      "data": {
+        "label": "Negative Human Flag",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/negative_human_flag.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "human_flag",
+      "position": {
+        "x": 2114,
+        "y": -424.8017331436427
+      },
+      "data": {
+        "label": "Human Flag",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/human_flag.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "scapular_pulls",
+      "target": "hanging_knee_raise"
+    },
+    {
+      "id": "e1",
+      "source": "hanging_knee_raise",
+      "target": "tuck_front_lever"
+    },
+    {
+      "id": "e2",
+      "source": "tuck_front_lever",
+      "target": "advanced_tuck"
+    },
+    {
+      "id": "e5",
+      "source": "piked_straddle",
+      "target": "straddle_front_lever"
+    },
+    {
+      "id": "e6",
+      "source": "straddle_front_lever",
+      "target": "one_leg_fl"
+    },
+    {
+      "id": "e7",
+      "source": "one_leg_fl",
+      "target": "front_lever"
+    },
+    {
+      "id": "e8",
+      "source": "advanced_tuck",
+      "target": "one_leg_drops"
+    },
+    {
+      "id": "e9",
+      "source": "one_leg_drops",
+      "target": "full_drops"
+    },
+    {
+      "id": "e10",
+      "source": "straddle_front_lever",
+      "target": "one_leg_raises"
+    },
+    {
+      "id": "e11",
+      "source": "one_leg_raises",
+      "target": "full_raises"
+    },
+    {
+      "id": "e12",
+      "source": "advanced_tuck",
+      "target": "deadlift"
+    },
+    {
+      "id": "e13",
+      "source": "deadlift",
+      "target": "ice_cream"
+    },
+    {
+      "id": "reactflow__edge-frog_front_lever-piked_straddle",
+      "source": "frog_front_lever",
+      "target": "piked_straddle"
+    },
+    {
+      "id": "reactflow__edge-advanced_tuck-frog_front_lever",
+      "source": "advanced_tuck",
+      "target": "frog_front_lever"
+    },
+    {
+      "id": "reactflow__edge-full_drops-one_leg_fl",
+      "source": "full_drops",
+      "target": "one_leg_fl"
+    },
+    {
+      "id": "reactflow__edge-ice_cream-one_leg_fl",
+      "source": "ice_cream",
+      "target": "one_leg_fl"
+    },
+    {
+      "id": "reactflow__edge-full_raises-one_leg_fl",
+      "source": "full_raises",
+      "target": "one_leg_fl"
+    },
+    {
+      "id": "mu_e0",
+      "source": "pull_up",
+      "target": "chest_to_bar"
+    },
+    {
+      "id": "mu_e1",
+      "source": "chest_to_bar",
+      "target": "stomach_to_bar"
+    },
+    {
+      "id": "mu_e2",
+      "source": "stomach_to_bar",
+      "target": "explosive_pull"
+    },
+    {
+      "id": "mu_e4",
+      "source": "straight_bar_dip",
+      "target": "jumping_mu"
+    },
+    {
+      "id": "mu_e5",
+      "source": "jumping_mu",
+      "target": "negative_mu"
+    },
+    {
+      "id": "mu_e6",
+      "source": "negative_mu",
+      "target": "muscle_up"
+    },
+    {
+      "id": "reactflow__edge-explosive_pull-jumping_mu",
+      "source": "explosive_pull",
+      "target": "jumping_mu"
+    },
+    {
+      "id": "flag_e0",
+      "source": "high_side_plank",
+      "target": "elevated_high_side_plank"
+    },
+    {
+      "id": "flag_e1",
+      "source": "elevated_high_side_plank",
+      "target": "side_plank_flag"
+    },
+    {
+      "id": "flag_e2",
+      "source": "side_plank_flag",
+      "target": "straddle_flag_raise"
+    },
+    {
+      "id": "flag_e3",
+      "source": "straddle_flag_raise",
+      "target": "flag_raises"
+    },
+    {
+      "id": "flag_e4",
+      "source": "flag_raises",
+      "target": "vertical_flag_hold"
+    },
+    {
+      "id": "flag_e5",
+      "source": "vertical_flag_hold",
+      "target": "tuck_human_flag"
+    },
+    {
+      "id": "flag_e6",
+      "source": "tuck_human_flag",
+      "target": "straddle_human_flag"
+    },
+    {
+      "id": "flag_e7",
+      "source": "straddle_human_flag",
+      "target": "negative_human_flag"
+    },
+    {
+      "id": "flag_e8",
+      "source": "negative_human_flag",
+      "target": "human_flag"
+    }
+  ]
+}
