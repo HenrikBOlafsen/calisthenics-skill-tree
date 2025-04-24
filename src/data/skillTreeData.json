@@ -3,8 +3,8 @@
     {
       "id": "scapular_pulls",
       "position": {
-        "x": 497.99667383190854,
-        "y": 1434.0896075512053
+        "x": 485.99667383190854,
+        "y": 1546.0896075512053
       },
       "data": {
         "label": "Scapular Pulls",
@@ -20,8 +20,8 @@
     {
       "id": "hanging_knee_raise",
       "position": {
-        "x": 481.69916822391826,
-        "y": 1202.8784733659554
+        "x": 471.69916822391826,
+        "y": 1288.8784733659554
       },
       "data": {
         "label": "Hanging Knee Raise",
@@ -37,8 +37,8 @@
     {
       "id": "tuck_front_lever",
       "position": {
-        "x": 496.5532903260755,
-        "y": 983.9616739659732
+        "x": 482.5532903260755,
+        "y": 1039.9616739659732
       },
       "data": {
         "label": "Tuck Front Lever",
@@ -71,8 +71,8 @@
     {
       "id": "frog_front_lever",
       "position": {
-        "x": 491.52298425658466,
-        "y": 519.8521503972207
+        "x": 473.52298425658466,
+        "y": 523.8521503972207
       },
       "data": {
         "label": "Frog Front Lever",
@@ -88,8 +88,8 @@
     {
       "id": "piked_straddle",
       "position": {
-        "x": 463.36269750613474,
-        "y": 306.459010749024
+        "x": 459.36269750613474,
+        "y": 242.459010749024
       },
       "data": {
         "label": "Piked Straddle Front Lever",
@@ -105,8 +105,8 @@
     {
       "id": "straddle_front_lever",
       "position": {
-        "x": 480.01565247109687,
-        "y": 163.9182887562563
+        "x": 458.01565247109687,
+        "y": 71.91828875625629
       },
       "data": {
         "label": "Straddle Front Lever",
@@ -122,8 +122,8 @@
     {
       "id": "one_leg_fl",
       "position": {
-        "x": 485.76495380060544,
-        "y": -345.79105694753997
+        "x": 449.76495380060544,
+        "y": -697.79105694754
       },
       "data": {
         "label": "One Leg Front Lever",
@@ -139,8 +139,8 @@
     {
       "id": "front_lever",
       "position": {
-        "x": 509.1038042255892,
-        "y": -553.5970796099447
+        "x": 465.1038042255892,
+        "y": -959.5970796099447
       },
       "data": {
         "label": "Front Lever",
@@ -157,7 +157,7 @@
       "id": "one_leg_drops",
       "position": {
         "x": 19.55777876224397,
-        "y": 480.3720570348146
+        "y": 416.3720570348146
       },
       "data": {
         "label": "One Leg FL Drops",
@@ -190,8 +190,8 @@
     {
       "id": "one_leg_raises",
       "position": {
-        "x": 324.20526524545687,
-        "y": 0.8034871133797168
+        "x": 318.20526524545687,
+        "y": -105.19651288662028
       },
       "data": {
         "label": "One Leg FL Raises",
@@ -207,8 +207,8 @@
     {
       "id": "full_raises",
       "position": {
-        "x": 322.3083112536925,
-        "y": -131.5274583023856
+        "x": 318.3083112536925,
+        "y": -295.52745830238564
       },
       "data": {
         "label": "Front Lever Raises",
@@ -225,7 +225,7 @@
       "id": "deadlift",
       "position": {
         "x": 803.1040104836857,
-        "y": 497.66815658040196
+        "y": 419.66815658040196
       },
       "data": {
         "label": "Upside-Down Deadlift",
@@ -258,8 +258,8 @@
     {
       "id": "pull_up",
       "position": {
-        "x": 1487.814984659159,
-        "y": 1104.8812422367428
+        "x": 1485.814984659159,
+        "y": 1212.8812422367428
       },
       "data": {
         "label": "Pull-Up",
@@ -276,7 +276,7 @@
       "id": "chest_to_bar",
       "position": {
         "x": 1469.5682975380387,
-        "y": 877.4714570085114
+        "y": 949.4714570085114
       },
       "data": {
         "label": "Chest-to-Bar Pull-Up",
@@ -292,8 +292,8 @@
     {
       "id": "stomach_to_bar",
       "position": {
-        "x": 1429.6916410985991,
-        "y": 649.9383282197198
+        "x": 1461.6916410985991,
+        "y": 663.9383282197198
       },
       "data": {
         "label": "Upper-Stomach-to-Bar Pull-Up",
@@ -394,8 +394,8 @@
     {
       "id": "high_side_plank",
       "position": {
-        "x": 2130,
-        "y": 1064
+        "x": 2096,
+        "y": 1248
       },
       "data": {
         "label": "High Side Plank Raise",
@@ -411,8 +411,8 @@
     {
       "id": "elevated_high_side_plank",
       "position": {
-        "x": 2094,
-        "y": 882
+        "x": 2098,
+        "y": 1010
       },
       "data": {
         "label": "Elevated High Side Plank Raise",
@@ -428,8 +428,8 @@
     {
       "id": "side_plank_flag",
       "position": {
-        "x": 2148,
-        "y": 688
+        "x": 2118,
+        "y": 826
       },
       "data": {
         "label": "Side Plank Flag",
@@ -445,8 +445,8 @@
     {
       "id": "straddle_flag_raise",
       "position": {
-        "x": 2134,
-        "y": 526
+        "x": 2104,
+        "y": 642
       },
       "data": {
         "label": "Straddle Flag Raise",
@@ -462,8 +462,8 @@
     {
       "id": "flag_raises",
       "position": {
-        "x": 2150,
-        "y": 360
+        "x": 2124,
+        "y": 474
       },
       "data": {
         "label": "Flag Raises",
@@ -479,8 +479,8 @@
     {
       "id": "vertical_flag_hold",
       "position": {
-        "x": 2126,
-        "y": 226
+        "x": 2108,
+        "y": 302
       },
       "data": {
         "label": "Vertical Flag Hold",
@@ -496,8 +496,8 @@
     {
       "id": "tuck_human_flag",
       "position": {
-        "x": 2120,
-        "y": 90
+        "x": 2112,
+        "y": 142
       },
       "data": {
         "label": "Tuck Human Flag",
@@ -513,8 +513,8 @@
     {
       "id": "straddle_human_flag",
       "position": {
-        "x": 2106,
-        "y": -50
+        "x": 2100,
+        "y": -42
       },
       "data": {
         "label": "Straddle Human Flag",
@@ -530,8 +530,8 @@
     {
       "id": "negative_human_flag",
       "position": {
-        "x": 2086,
-        "y": -188
+        "x": 2102,
+        "y": -224
       },
       "data": {
         "label": "Negative Human Flag",
@@ -547,8 +547,8 @@
     {
       "id": "human_flag",
       "position": {
-        "x": 2114,
-        "y": -424.8017331436427
+        "x": 2126,
+        "y": -470.80173314364265
       },
       "data": {
         "label": "Human Flag",
@@ -558,6 +558,261 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "squat",
+      "position": {
+        "x": -754.7422033113088,
+        "y": 1759.1381070140712
+      },
+      "data": {
+        "label": "Squat",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "narrow_squat",
+      "position": {
+        "x": -758.9604698286226,
+        "y": 1523.8269128633067
+      },
+      "data": {
+        "label": "Narrow Squat",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "deep_squat",
+      "position": {
+        "x": -757.679129922702,
+        "y": 1289.6102161202627
+      },
+      "data": {
+        "label": "Deep Squat",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "bulgarian_split",
+      "position": {
+        "x": -788.9252553285414,
+        "y": 1030.3098889937796
+      },
+      "data": {
+        "label": "Bulgarian Split Squat",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "cossack_squat",
+      "position": {
+        "x": -768.6810879851714,
+        "y": 844.0008591949968
+      },
+      "data": {
+        "label": "Cossack Squat",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "assisted_shrimp",
+      "position": {
+        "x": -790.2399782471648,
+        "y": 630.8667201364514
+      },
+      "data": {
+        "label": "Assisted Shrimp Squat",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "shrimp_squat",
+      "position": {
+        "x": -765.6939419106241,
+        "y": 367.90535742000884
+      },
+      "data": {
+        "label": "Shrimp Squat",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/shrimp_squat.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "assisted_dragon",
+      "position": {
+        "x": -1036.953954414304,
+        "y": -269.68399547038666
+      },
+      "data": {
+        "label": "Assisted Dragon Step-Through",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "dragon_step",
+      "position": {
+        "x": -1048.4915215103456,
+        "y": -550.8264087613237
+      },
+      "data": {
+        "label": "Dragon Step-Through",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "ankle_mobility",
+      "position": {
+        "x": -800.7934226838421,
+        "y": -12.40095446237131
+      },
+      "data": {
+        "label": "Ankle Mobility Stretch",
+        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "negative_box_pistol",
+      "position": {
+        "x": -580.6860585994602,
+        "y": -287.28159556590646
+      },
+      "data": {
+        "label": "Negative Box Pistol Squat",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/pistol_squat_box.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "box_pistol",
+      "position": {
+        "x": -554.4764224829557,
+        "y": -527.3526001500278
+      },
+      "data": {
+        "label": "Box Pistol Squat",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/pistol_squat_box.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "negative_pistol",
+      "position": {
+        "x": -575.5990464396746,
+        "y": -764.1572621575536
+      },
+      "data": {
+        "label": "Negative Pistol Squat",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/pistol_squat.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "pistol_squat",
+      "position": {
+        "x": -557.4064310444855,
+        "y": -992.924565238436
+      },
+      "data": {
+        "label": "Pistol Squat",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/pistol_squat.svg",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 5,
+          "gold": 10,
+          "diamond": 20
+        }
+      }
+    },
+    {
+      "id": "new_node_1",
+      "position": {
+        "x": -1023.9527741434752,
+        "y": -739.5196035386491
+      },
+      "data": {
+        "label": "Dragon Squat",
+        "imageUrl": "",
+        "thresholds": {
+          "bronze": 1,
+          "silver": 3,
+          "gold": 5,
+          "diamond": 10
         }
       }
     }
@@ -727,6 +982,81 @@
       "id": "flag_e8",
       "source": "negative_human_flag",
       "target": "human_flag"
+    },
+    {
+      "id": "dragon_e0",
+      "source": "squat",
+      "target": "narrow_squat"
+    },
+    {
+      "id": "dragon_e1",
+      "source": "narrow_squat",
+      "target": "deep_squat"
+    },
+    {
+      "id": "dragon_e2",
+      "source": "deep_squat",
+      "target": "bulgarian_split"
+    },
+    {
+      "id": "dragon_e3",
+      "source": "bulgarian_split",
+      "target": "cossack_squat"
+    },
+    {
+      "id": "dragon_e4",
+      "source": "cossack_squat",
+      "target": "assisted_shrimp"
+    },
+    {
+      "id": "dragon_e5",
+      "source": "assisted_shrimp",
+      "target": "shrimp_squat"
+    },
+    {
+      "id": "dragon_e6",
+      "source": "shrimp_squat",
+      "target": "assisted_dragon"
+    },
+    {
+      "id": "dragon_e7",
+      "source": "assisted_dragon",
+      "target": "dragon_step"
+    },
+    {
+      "id": "dragon_e9",
+      "source": "ankle_mobility",
+      "target": "assisted_dragon"
+    },
+    {
+      "id": "dragon_e10",
+      "source": "shrimp_squat",
+      "target": "negative_box_pistol"
+    },
+    {
+      "id": "dragon_e11",
+      "source": "negative_box_pistol",
+      "target": "box_pistol"
+    },
+    {
+      "id": "dragon_e12",
+      "source": "box_pistol",
+      "target": "negative_pistol"
+    },
+    {
+      "id": "dragon_e13",
+      "source": "negative_pistol",
+      "target": "pistol_squat"
+    },
+    {
+      "id": "reactflow__edge-ankle_mobility-negative_box_pistol",
+      "source": "ankle_mobility",
+      "target": "negative_box_pistol"
+    },
+    {
+      "id": "reactflow__edge-dragon_step-new_node_1",
+      "source": "dragon_step",
+      "target": "new_node_1"
     }
   ]
 }

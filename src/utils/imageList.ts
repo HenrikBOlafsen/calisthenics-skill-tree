@@ -1,9 +1,28 @@
-const images = import.meta.glob('../assets/move_images/*.{jpg,jpeg,png,gif,svg}', {
-  eager: true,
-  import: 'default',
-})
+const filenames = [
+  "advanced_tuck_front_lever.svg",
+  "chest-to-bar_pull-up.svg",
+  "chin-up.svg",
+  "dips_with_box.svg",
+  "front_lever_drops.svg",
+  "front_lever.svg",
+  "hanging_knee_raises.svg",
+  "human_flag.svg",
+  "one_leg_front_lever_drops.svg",
+  "one_leg_front_lever.svg",
+  "piked_straddle_front_lever.svg",
+  "pistol_squat_box.svg",
+  "pistol_squat.svg",
+  "planche_push-up.svg",
+  "pull-up.svg",
+  "push-up.svg",
+  "scapular_pulls.svg",
+  "shrimp_squat.svg",
+  "tuck_front_lever.svg",
+  "upper-stomach-to-bar_pull-up.svg",
+  "upside_down_deadlift.svg",
+]
 
-export const imageOptions = Object.entries(images).map(([path, url]) => {
-  const name = path.split('/').pop()!.split('.')[0] // extract just the filename (no extension)
-  return { name, url: url as string }
-})
+export const imageOptions = filenames.map((name) => ({
+  name: name.replace(/[-_]/g, ' ').replace(/\.[^/.]+$/, ''), // prettify
+  url: `${import.meta.env.BASE_URL}assets/move_images/${name}`,
+}))

@@ -44,7 +44,7 @@ export default function App() {
     skillTreeDataRaw.edges.map((edge) => ({
       ...edge,
       type: 'default',
-      markerEnd: { type: MarkerType.ArrowClosed, width: 25, height: 25 },
+      markerEnd: { type: MarkerType.ArrowClosed, width: 45, height: 45 },
     }))
   )
   
@@ -142,6 +142,7 @@ export default function App() {
           edges={edges}
           nodeTypes={nodeTypes}
           fitView
+          minZoom={0.2} 
           onNodesChange={devMode ? handleNodesChange : undefined}
           onEdgesChange={devMode ? handleEdgesChange : undefined}
           onConnect={
