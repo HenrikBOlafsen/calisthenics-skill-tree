@@ -3,7 +3,7 @@
     {
       "id": "scapular_pulls",
       "position": {
-        "x": 485.99667383190854,
+        "x": 467.50296651062735,
         "y": 1546.0896075512053
       },
       "data": {
@@ -14,47 +14,55 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "hanging_knee_raise",
       "position": {
-        "x": 471.69916822391826,
+        "x": 467.50296651062735,
         "y": 1288.8784733659554
       },
       "data": {
         "label": "Hanging Knee Raise",
-        "imageUrl": "assets/move_images/hanging_knee_raises.svg",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/hanging_knee_raises.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": [
+          "https://www.youtube.com/watch?v=AGhb8V8M758"
+        ]
       }
     },
     {
       "id": "tuck_front_lever",
       "position": {
-        "x": 482.5532903260755,
+        "x": 467.50296651062735,
         "y": 1039.9616739659732
       },
       "data": {
         "label": "Tuck Front Lever",
-        "imageUrl": "assets/move_images/tuck_front_lever.svg",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/tuck_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": [
+          "https://www.youtube.com/watch?v=AGhb8V8M758",
+          "https://www.youtube.com/watch?v=5g8-sj-8snc"
+        ]
       }
     },
     {
       "id": "advanced_tuck",
       "position": {
-        "x": 459.00646317139615,
+        "x": 467.50296651062735,
         "y": 766.9755636346632
       },
       "data": {
@@ -65,31 +73,33 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "frog_front_lever",
       "position": {
-        "x": 473.52298425658466,
-        "y": 523.8521503972207
+        "x": 467.50296651062735,
+        "y": 498.8420425738567
       },
       "data": {
         "label": "Frog Front Lever",
-        "imageUrl": "assets/move_images/frog_front_lever.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/frog_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "piked_straddle",
       "position": {
-        "x": 459.36269750613474,
-        "y": 242.459010749024
+        "x": 467.50296651062735,
+        "y": 266.9109348542265
       },
       "data": {
         "label": "Piked Straddle Front Lever",
@@ -99,31 +109,33 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "straddle_front_lever",
       "position": {
-        "x": 458.01565247109687,
-        "y": 71.91828875625629
+        "x": 467.50296651062735,
+        "y": 36.090146191142765
       },
       "data": {
         "label": "Straddle Front Lever",
-        "imageUrl": "assets/move_images/straddle_front_lever.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/straddle_front_lever.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "one_leg_fl",
       "position": {
-        "x": 449.76495380060544,
-        "y": -697.79105694754
+        "x": 467.50296651062735,
+        "y": -852.1332864164376
       },
       "data": {
         "label": "One Leg Front Lever",
@@ -133,14 +145,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "front_lever",
       "position": {
-        "x": 465.1038042255892,
-        "y": -959.5970796099447
+        "x": 467.50296651062735,
+        "y": -1103.5459485940733
       },
       "data": {
         "label": "Front Lever",
@@ -150,14 +163,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "one_leg_drops",
       "position": {
-        "x": 19.55777876224397,
-        "y": 416.3720570348146
+        "x": 94.00313350814746,
+        "y": 396.9008503098243
       },
       "data": {
         "label": "One Leg FL Drops",
@@ -167,14 +181,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "full_drops",
       "position": {
-        "x": 19.16923669579228,
-        "y": -178.77383573861005
+        "x": 94.00313350814746,
+        "y": -415.67351755932486
       },
       "data": {
         "label": "Front Lever Drops",
@@ -184,48 +199,51 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "one_leg_raises",
       "position": {
-        "x": 318.20526524545687,
-        "y": -105.19651288662028
+        "x": 342.93123357829177,
+        "y": -198.69964091434122
       },
       "data": {
         "label": "One Leg FL Raises",
-        "imageUrl": "assets/move_images/one_leg_fl_raises.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/one_leg_front_lever_raises.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "full_raises",
       "position": {
-        "x": 318.3083112536925,
-        "y": -295.52745830238564
+        "x": 342.93123357829177,
+        "y": -420.97952259752344
       },
       "data": {
         "label": "Front Lever Raises",
-        "imageUrl": "assets/move_images/front_lever_raises.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/front_lever_raises.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "deadlift",
       "position": {
-        "x": 803.1040104836857,
-        "y": 419.66815658040196
+        "x": 822.1875829687463,
+        "y": 400.19694985541173
       },
       "data": {
         "label": "Upside-Down Deadlift",
@@ -235,14 +253,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "ice_cream",
       "position": {
-        "x": 818.5547476079851,
-        "y": -145.70280466116628
+        "x": 822.1875829687463,
+        "y": -404.62141496564
       },
       "data": {
         "label": "Ice Cream Makers",
@@ -252,13 +271,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "pull_up",
       "position": {
-        "x": 1485.814984659159,
+        "x": 1469.5773536143527,
         "y": 1212.8812422367428
       },
       "data": {
@@ -269,13 +289,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "chest_to_bar",
       "position": {
-        "x": 1469.5682975380387,
+        "x": 1469.5773536143527,
         "y": 949.4714570085114
       },
       "data": {
@@ -286,13 +307,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "stomach_to_bar",
       "position": {
-        "x": 1461.6916410985991,
+        "x": 1469.5773536143527,
         "y": 663.9383282197198
       },
       "data": {
@@ -303,13 +325,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "explosive_pull",
       "position": {
-        "x": 1472,
+        "x": 1469.5773536143527,
         "y": 474
       },
       "data": {
@@ -320,81 +343,86 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "straight_bar_dip",
       "position": {
         "x": 1724,
-        "y": 470
+        "y": 504.9057047819627
       },
       "data": {
         "label": "Straight Bar Dips",
-        "imageUrl": "assets/move_images/straight_bar_dip.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/straight-bar_dips.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "jumping_mu",
       "position": {
-        "x": 1460,
+        "x": 1469.5773536143527,
         "y": 230
       },
       "data": {
         "label": "Jumping Muscle-Up",
-        "imageUrl": "assets/move_images/jumping_muscle-up.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/muscle-up.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "negative_mu",
       "position": {
-        "x": 1458,
-        "y": 68
+        "x": 1469.5773536143527,
+        "y": -31.638951771185333
       },
       "data": {
         "label": "Negative Muscle-Up",
-        "imageUrl": "assets/move_images/negative_muscle-up.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/muscle-up.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "muscle_up",
       "position": {
-        "x": 1482,
-        "y": -96
+        "x": 1469.5773536143527,
+        "y": -315.6123834956738
       },
       "data": {
         "label": "Muscle-Up",
-        "imageUrl": "assets/move_images/muscle-up.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/muscle-up.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "high_side_plank",
       "position": {
-        "x": 2096,
+        "x": 2108.8,
         "y": 1248
       },
       "data": {
@@ -405,13 +433,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "elevated_high_side_plank",
       "position": {
-        "x": 2098,
+        "x": 2108.8,
         "y": 1010
       },
       "data": {
@@ -422,13 +451,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "side_plank_flag",
       "position": {
-        "x": 2118,
+        "x": 2108.8,
         "y": 826
       },
       "data": {
@@ -439,13 +469,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "straddle_flag_raise",
       "position": {
-        "x": 2104,
+        "x": 2108.8,
         "y": 642
       },
       "data": {
@@ -456,13 +487,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "flag_raises",
       "position": {
-        "x": 2124,
+        "x": 2108.8,
         "y": 474
       },
       "data": {
@@ -473,13 +505,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "vertical_flag_hold",
       "position": {
-        "x": 2108,
+        "x": 2108.8,
         "y": 302
       },
       "data": {
@@ -490,13 +523,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "tuck_human_flag",
       "position": {
-        "x": 2112,
+        "x": 2108.8,
         "y": 142
       },
       "data": {
@@ -507,13 +541,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "straddle_human_flag",
       "position": {
-        "x": 2100,
+        "x": 2108.8,
         "y": -42
       },
       "data": {
@@ -524,13 +559,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "negative_human_flag",
       "position": {
-        "x": 2102,
+        "x": 2108.8,
         "y": -224
       },
       "data": {
@@ -541,13 +577,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "human_flag",
       "position": {
-        "x": 2126,
+        "x": 2108.8,
         "y": -470.80173314364265
       },
       "data": {
@@ -558,115 +595,122 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "squat",
       "position": {
-        "x": -754.7422033113088,
-        "y": 1759.1381070140712
+        "x": -771.5967540841434,
+        "y": 1864.2897120719792
       },
       "data": {
         "label": "Squat",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "narrow_squat",
       "position": {
-        "x": -758.9604698286226,
-        "y": 1523.8269128633067
+        "x": -771.5967540841434,
+        "y": 1606.3309689677649
       },
       "data": {
         "label": "Narrow Squat",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "deep_squat",
       "position": {
-        "x": -757.679129922702,
-        "y": 1289.6102161202627
+        "x": -771.5967540841434,
+        "y": 1359.1728156798924
       },
       "data": {
         "label": "Deep Squat",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/deep_squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "bulgarian_split",
       "position": {
-        "x": -788.9252553285414,
-        "y": 1030.3098889937796
+        "x": -771.5967540841434,
+        "y": 1112.8139450982378
       },
       "data": {
         "label": "Bulgarian Split Squat",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/bulgarian_split_squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "cossack_squat",
       "position": {
-        "x": -768.6810879851714,
-        "y": 844.0008591949968
+        "x": -771.5967540841434,
+        "y": 855.326904302898
       },
       "data": {
         "label": "Cossack Squat",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/cossack_squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "assisted_shrimp",
       "position": {
-        "x": -790.2399782471648,
-        "y": 630.8667201364514
+        "x": -771.5967540841434,
+        "y": 603.365368101632
       },
       "data": {
         "label": "Assisted Shrimp Squat",
-        "imageUrl": "/calisthenics-skill-tree/src/assets/move_images/squat.png",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/assisted_shrimp_squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "shrimp_squat",
       "position": {
-        "x": -765.6939419106241,
+        "x": -771.5967540841434,
         "y": 367.90535742000884
       },
       "data": {
@@ -677,14 +721,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "assisted_dragon",
       "position": {
-        "x": -1036.953954414304,
-        "y": -269.68399547038666
+        "x": -1004.9888357346268,
+        "y": -266.8224275048035
       },
       "data": {
         "label": "Assisted Dragon Step-Through",
@@ -694,14 +739,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "dragon_step",
       "position": {
-        "x": -1048.4915215103456,
-        "y": -550.8264087613237
+        "x": -1004.9888357346268,
+        "y": -547.9648407957405
       },
       "data": {
         "label": "Dragon Step-Through",
@@ -711,13 +757,14 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "ankle_mobility",
       "position": {
-        "x": -800.7934226838421,
+        "x": -771.5967540841434,
         "y": -12.40095446237131
       },
       "data": {
@@ -728,14 +775,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "negative_box_pistol",
       "position": {
-        "x": -580.6860585994602,
-        "y": -287.28159556590646
+        "x": -542.718661934187,
+        "y": -284.4200276003233
       },
       "data": {
         "label": "Negative Box Pistol Squat",
@@ -745,14 +793,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "box_pistol",
       "position": {
-        "x": -554.4764224829557,
-        "y": -527.3526001500278
+        "x": -542.718661934187,
+        "y": -524.4910321844446
       },
       "data": {
         "label": "Box Pistol Squat",
@@ -762,14 +811,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "negative_pistol",
       "position": {
-        "x": -575.5990464396746,
-        "y": -764.1572621575536
+        "x": -542.718661934187,
+        "y": -761.2956941919705
       },
       "data": {
         "label": "Negative Pistol Squat",
@@ -779,14 +829,15 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "pistol_squat",
       "position": {
-        "x": -557.4064310444855,
-        "y": -992.924565238436
+        "x": -542.718661934187,
+        "y": -990.062997272853
       },
       "data": {
         "label": "Pistol Squat",
@@ -796,24 +847,26 @@
           "silver": 5,
           "gold": 10,
           "diamond": 20
-        }
+        },
+        "links": []
       }
     },
     {
       "id": "new_node_1",
       "position": {
-        "x": -1023.9527741434752,
-        "y": -739.5196035386491
+        "x": -1004.9888357346268,
+        "y": -774.788986252236
       },
       "data": {
         "label": "Dragon Squat",
-        "imageUrl": "",
+        "imageUrl": "/calisthenics-skill-tree/assets/move_images/dragon_squat.svg",
         "thresholds": {
           "bronze": 1,
           "silver": 3,
           "gold": 5,
           "diamond": 10
-        }
+        },
+        "links": []
       }
     }
   ],

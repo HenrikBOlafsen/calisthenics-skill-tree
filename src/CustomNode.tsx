@@ -10,12 +10,13 @@ const masteryColors = {
   diamond: '#9AC5DB',
 }
 
-type SkillNodeData = {
+export type SkillNodeData = {
   id: string
   label: string
   thresholds: MasteryThresholds
   imageUrl?: string
   repsOrSeconds?: number
+  links?: string[] 
 }
 
 const CustomNode: React.FC<NodeProps<SkillNodeData>> = ({ data }) => {
@@ -27,14 +28,14 @@ const CustomNode: React.FC<NodeProps<SkillNodeData>> = ({ data }) => {
     bronze: '0 0 8px #cd7f32, inset 0 0 4px #8a4b1f',
     silver: '0 0 8px #c0c0c0, inset 0 0 4px #888',
     gold:   '0 0 8px #ffd700, inset 0 0 4px #b8860b',
-    diamond:'0 0 12px #9AC5DB, inset 0 0 6px #5cc5f9',
+    diamond:'0 0 32px #9AC5DB, inset 0 0 6px #5cc5f9',
   }
 
   const masteryGradients: Record<string, string | undefined> = {
     bronze: 'linear-gradient(45deg, #8d5524, #cd7f32, #a0522d)',
-    silver: 'linear-gradient(45deg, #aaa, #eee, #bbb)',
+    silver: 'linear-gradient(45deg, #999, #bbb, #888)',
     gold:   'linear-gradient(45deg,rgb(212, 186, 37),rgb(189, 156, 27), #ffea70)',
-    diamond:'linear-gradient(45deg, #aeeaff, #e0ffff, #9AC5DB)',
+    diamond:'linear-gradient(45deg,rgb(144, 200, 221), #e0ffff, #9AC5DB)',
     locked: undefined,
   }
   

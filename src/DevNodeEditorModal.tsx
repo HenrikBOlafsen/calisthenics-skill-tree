@@ -24,14 +24,20 @@ export default function DevNodeEditorModal({ node, onSave, onClose, onDelete }: 
   
   const sortedImages = [...imageOptions].sort((a, b) => a.name.localeCompare(b.name))
 
-  const [selectedImageName, setSelectedImageName] = useState(
-    node.data.imageUrl
-      ? sortedImages.find((img) => img.url === node.data.imageUrl)?.name ?? ''
-      : ''
-  )
+  const [selectedImageName, setSelectedImageName] = useState<string>(() => {
+    if (node.data.imageUrl) {
+      const match = sortedImages.find((img) =>
+        img.url.endsWith(node.data.imageUrl)
+      )?.name ?? '';
+      return match;
+    }
+    return '';
+  });
+
 
   const selectedImageUrl = sortedImages.find((img) => img.name === selectedImageName)?.url
 
+  const [links, setLinks] = useState<string[]>(node.data.links || [])
 
 
   const handleThresholdChange = (level: keyof typeof thresholds, value: string) => {
@@ -49,6 +55,7 @@ export default function DevNodeEditorModal({ node, onSave, onClose, onDelete }: 
         label,
         imageUrl: selectedImageUrl ?? '',
         thresholds,
+        links,
       },
     }    
     onSave(updatedNode)
@@ -95,6 +102,33 @@ export default function DevNodeEditorModal({ node, onSave, onClose, onDelete }: 
             />
           </div>
         ))}
+
+        <label>Links (YouTube etc):</label>
+        {links.map((link, idx) => (
+          <div key={idx} style={{ display: 'flex', marginBottom: 6 }}>
+            <input
+              type="text"
+              value={link}
+              onChange={(e) => {
+                const newLinks = [...links]
+                newLinks[idx] = e.target.value
+                setLinks(newLinks)
+              }}
+              style={{ flex: 1, marginRight: 6 }}
+            />
+            <button onClick={() => {
+              const newLinks = links.filter((_, i) => i !== idx)
+              setLinks(newLinks)
+            }}>🗑️</button>
+          </div>
+        ))}
+        <button
+          onClick={() => setLinks([...links, ''])}
+          style={{ ...styles.save, marginTop: 4, marginBottom: 10 }}
+        >
+          ➕ Add Link
+        </button>
+
 
         <div style={{ marginTop: 20 }}>
           <button onClick={handleSubmit} style={styles.save}>Save</button>

@@ -20,6 +20,18 @@ const filenames = [
   "tuck_front_lever.svg",
   "upper-stomach-to-bar_pull-up.svg",
   "upside_down_deadlift.svg",
+  "assisted_shrimp_squat.svg",
+  "bulgarian_split_squat.svg",
+  "cossack_squat.svg",
+  "deep_squat.svg",
+  "dragon_squat.svg",
+  "frog_front_lever.svg",
+  "front_lever_raises.svg",
+  "muscle-up.svg",
+  "one_leg_front_lever_raises.svg",
+  "squat.svg",
+  "straddle_front_lever.svg",
+  "straight-bar_dips.svg",
 ]
 
 export const imageOptions = filenames.map((name) => ({

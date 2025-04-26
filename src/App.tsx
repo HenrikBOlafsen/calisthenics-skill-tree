@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useState, useEffect } from 'react'
 import ReactFlow, {
   ReactFlowProvider,
   Node,
@@ -8,7 +8,7 @@ import ReactFlow, {
   addEdge,
   NodeChange,
   EdgeChange,
-  MarkerType
+  MarkerType,
 } from 'reactflow'
 import 'reactflow/dist/style.css'
 import CustomNode from './CustomNode'
@@ -16,9 +16,10 @@ import PRModal from './PRModal'
 import DevNodeEditorModal from './DevNodeEditorModal'
 import { getStoredPRs, setStoredPR } from './utils/storage'
 import skillTreeDataRaw from './data/skillTreeData.json'
+import FavoritesPanel from './FavoritesPanel'
 
 
-const devMode = false
+const devMode = true
 
 const nodeTypes = {
   custom: CustomNode,
@@ -27,6 +28,25 @@ const nodeTypes = {
 export default function App() {
 
   const storedPRs = getStoredPRs()
+
+  const [favoriteIds, setFavoriteIds] = useState<string[]>(() => {
+    const stored = localStorage.getItem('favoriteNodeIds')
+    return stored ? JSON.parse(stored) : []
+  })
+  
+
+  const toggleFavorite = (id: string) => {
+    setFavoriteIds((prev) =>
+      prev.includes(id) ? prev.filter((f) => f !== id) : [...prev, id]
+    )
+  }
+
+  useEffect(() => {
+    localStorage.setItem('favoriteNodeIds', JSON.stringify(favoriteIds))
+  }, [favoriteIds])
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
   
   const [nodes, setNodes] = useState<Node[]>(() =>
     skillTreeDataRaw.nodes.map((node) => ({
@@ -114,6 +134,7 @@ export default function App() {
         label: data.label,
         imageUrl: data.imageUrl,
         thresholds: data.thresholds,
+        links: data.links || [],
       },
     }))
   
@@ -132,6 +153,12 @@ export default function App() {
     a.click()
     URL.revokeObjectURL(url)
   }
+
+  const [selectedNodeIds, setSelectedNodeIds] = useState<string[]>([])
+
+  const handleSelectionChange = useCallback(({ nodes }: { nodes: Node[] }) => {
+    setSelectedNodeIds(nodes.map((n) => n.id))
+  }, [])
   
 
   return (
@@ -143,6 +170,10 @@ export default function App() {
           nodeTypes={nodeTypes}
           fitView
           minZoom={0.2} 
+          nodeOrigin={[0.5, 0.5]}
+          nodesDraggable={devMode}
+          selectNodesOnDrag={devMode}
+          onSelectionChange={devMode ? handleSelectionChange : undefined}
           onNodesChange={devMode ? handleNodesChange : undefined}
           onEdgesChange={devMode ? handleEdgesChange : undefined}
           onConnect={
@@ -161,8 +192,9 @@ export default function App() {
 
         {modalNode && (
           <PRModal
-            label={modalNode.data.label}
-            initialValue={modalNode.data.repsOrSeconds}
+            node={modalNode}
+            favoriteIds={favoriteIds}
+            toggleFavorite={toggleFavorite}
             onSave={handleSavePR}
             onClose={() => setModalNode(null)}
           />
@@ -235,6 +267,74 @@ export default function App() {
             ➕ Add Node
           </button>
         )}
+
+        {devMode && selectedNodeIds.length > 1 && (
+          <button
+            onClick={() => {
+              setNodes((prev) => {
+                const selectedNodes = prev.filter((n) => selectedNodeIds.includes(n.id))
+                if (selectedNodes.length === 0) return prev
+
+                // Get average X position of selected nodes
+                const avgX = selectedNodes.reduce((sum, n) => sum + n.position.x, 0) / selectedNodes.length
+
+                return prev.map((node) =>
+                  selectedNodeIds.includes(node.id)
+                    ? {
+                        ...node,
+                        position: { ...node.position, x: avgX },
+                      }
+                    : node
+                )
+              })
+            }}
+            style={{
+              position: 'absolute',
+              bottom: 110,
+              left: 20,
+              padding: '10px 16px',
+              fontSize: 14,
+              borderRadius: 6,
+              backgroundColor: '#ff9800',
+              color: 'white',
+              border: 'none',
+              cursor: 'pointer',
+              boxShadow: '0 0 6px rgba(0,0,0,0.2)',
+            }}
+          >
+            📏 Align Vertically
+          </button>
+        )}
+
+
+        {menuOpen && (
+          <FavoritesPanel
+            favoriteIds={favoriteIds}
+            nodes={nodes}
+            setNodes={setNodes}
+            onClose={() => setMenuOpen(false)}
+          />
+        )}
+
+        <button
+          onClick={() => setMenuOpen((prev) => !prev)}
+          style={{
+            position: 'absolute',
+            top: 20,
+            left: 20,
+            fontSize: 24,
+            padding: '8px 12px',
+            background: '#333',
+            color: 'white',
+            border: 'none',
+            borderRadius: 4,
+          }}
+        >
+          ☰
+        </button>
+
+        
+
 
       </div>
     </ReactFlowProvider>
