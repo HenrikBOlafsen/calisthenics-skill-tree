@@ -45,6 +45,7 @@ export default function FavoritesPanel({ favoriteIds, nodes, setNodes, onClose }
                   n.id === node.id ? { ...n, selected: true } : { ...n, selected: false }
                 )
               )
+              onClose()
             }}
             style={{
               background: '#444',
