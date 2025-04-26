@@ -19,7 +19,7 @@ import skillTreeDataRaw from './data/skillTreeData.json'
 import FavoritesPanel from './FavoritesPanel'
 
 
-const devMode = true
+const devMode = false
 
 const nodeTypes = {
   custom: CustomNode,
